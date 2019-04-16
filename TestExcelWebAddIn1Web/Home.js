@@ -36,8 +36,32 @@
             $('#highlight-button').click(hightlightHighestValue);
             $('#clear-button').click(ClearSheet);
             $('#newsheet-button').click(AddNewSheet);
+
+            InitializeEvents();
         });
     };
+
+    function InitializeEvents() {
+        Excel.run(function (ctx) {
+            var worksheet = ctx.workbook.worksheets.getActiveWorksheet();
+            worksheet.onSelectionChanged.add(handleSelectionChange);
+            return ctx.sync()
+                .then(function () {
+                    console.log("Event handler successfully registered for onSelectionChanged event in the worksheet.");
+                });
+        })
+            .catch(errorHandler);
+    }
+
+    function handleSelectionChange(event) {
+        return Excel.run(function (context) {
+            return context.sync()
+                .then(function () {
+                    console.log("Address of current selection: " + event.address);
+                    $('#position-label').text("Address of current selection: " + event.address);
+                });
+        }).catch(errorHandler);
+    }
 
     function loadSampleData() {
         //var values = [

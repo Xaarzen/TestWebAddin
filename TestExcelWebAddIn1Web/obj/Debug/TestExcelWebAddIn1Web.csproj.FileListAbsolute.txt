@@ -54,3 +54,5 @@ C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\
 C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.dll
 C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.pdb
 C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.csprojAssemblyReference.cache
+C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.dll
+C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.pdb

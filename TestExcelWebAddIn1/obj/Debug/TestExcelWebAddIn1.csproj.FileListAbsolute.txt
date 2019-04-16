@@ -1,0 +1,1 @@
+C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1\obj\Debug\TestExcelWebAddIn1.csproj.CoreCompileInputs.cache
