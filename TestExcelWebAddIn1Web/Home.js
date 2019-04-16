@@ -51,6 +51,7 @@
                 .then(function () {
                     console.log("Event handler successfully registered for onActivated event in the workbook.");
                     console.log("Event handler successfully registered for onSelectionChanged event in the active worksheet.");
+                    UpdateLabelWithPosition();
                 });
         })
             .catch(errorHandler);
@@ -62,17 +63,29 @@
             worksheet.onSelectionChanged.add(handleSelectionChange);
             return context.sync()
                 .then(function () {
-                    console.log("Event handler successfully registered for onSelectionChanged event in the active worksheet.");
+                    UpdateLabelWithPosition();
                 });
         }).catch(errorHandler);
     }
 
     function handleSelectionChange(event) {
-        return Excel.run(function (context) {
-            return context.sync()
+        return Excel.run(function (ctx) {
+            return ctx.sync()
                 .then(function () {
-                    console.log("Address of current selection: " + event.address);
-                    $('#position-label').text("Address of current selection: " + event.address);
+                    UpdateLabelWithPosition();
+                });
+        }).catch(errorHandler);
+    }
+
+    function UpdateLabelWithPosition(event) {
+        return Excel.run(function (ctx) {
+            return ctx.sync()
+                .then(function () {
+                    var selection = ctx.workbook.getSelectedRange().load("address");
+                    return ctx.sync()
+                        .then(function () {
+                            $('#position-label').text("Address of current selection: " + selection.address);
+                        })
                 });
         }).catch(errorHandler);
     }
@@ -87,7 +100,6 @@
         // Run a batch operation against the Excel object model
         Excel.run(function (ctx) {
             // Create a proxy object for the active sheet
-            var sheet = ctx.workbook.worksheets.getActiveWorksheet();
             var selection = ctx.workbook.getSelectedRange().load("values, rowCount, columnCount, address, rowIndex, columnIndex");
             // Queue a command to write the sample data to the worksheet
             //sheet.getRange("B3:D5").values = values;
