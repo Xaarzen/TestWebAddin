@@ -109,3 +109,4 @@ C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddI
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.csproj.CopyComplete
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.dll
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.pdb
+C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.csprojAssemblyReference.cache

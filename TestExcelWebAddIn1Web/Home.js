@@ -10,7 +10,7 @@
             // Initialize the FabricUI notification mechanism and hide it
             var element = document.querySelector('.ms-MessageBanner');
             messageBanner = new fabric.MessageBanner(element);
-            //messageBanner.hideBanner();
+            messageBanner.hideBanner();
 
             // If not using Excel 2016, use fallback logic.
             //if (!Office.context.requirements.isSetSupported('ExcelApi', '1.1')) {
