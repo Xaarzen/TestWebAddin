@@ -43,14 +43,28 @@
 
     function InitializeEvents() {
         Excel.run(function (ctx) {
-            var worksheet = ctx.workbook.worksheets.getActiveWorksheet();
-            worksheet.onSelectionChanged.add(handleSelectionChange);
+            var worksheets = ctx.workbook.worksheets;
+            worksheets.onActivated.add(handleSheetActivation);
+            var activeSheet = ctx.workbook.worksheets.getActiveWorksheet();
+            activeSheet.onSelectionChanged.add(handleSelectionChange);
             return ctx.sync()
                 .then(function () {
-                    console.log("Event handler successfully registered for onSelectionChanged event in the worksheet.");
+                    console.log("Event handler successfully registered for onActivated event in the workbook.");
+                    console.log("Event handler successfully registered for onSelectionChanged event in the active worksheet.");
                 });
         })
             .catch(errorHandler);
+    }
+
+    function handleSheetActivation(event) {
+        return Excel.run(function (context) {
+            var worksheet = context.workbook.worksheets.getActiveWorksheet();
+            worksheet.onSelectionChanged.add(handleSelectionChange);
+            return context.sync()
+                .then(function () {
+                    console.log("Event handler successfully registered for onSelectionChanged event in the active worksheet.");
+                });
+        }).catch(errorHandler);
     }
 
     function handleSelectionChange(event) {

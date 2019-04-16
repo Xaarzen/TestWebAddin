@@ -54,8 +54,6 @@ C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\
 C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.dll
 C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.pdb
 C:\Users\ManuelTrivellini\source\repos\TestExcelWebAddIn1\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.csprojAssemblyReference.cache
-C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.dll
-C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.pdb
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\bin\TestExcelWebAddIn1Web.dll.config
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\bin\TestExcelWebAddIn1Web.dll
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\bin\TestExcelWebAddIn1Web.pdb
@@ -107,6 +105,7 @@ C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\bin\roslyn\VBCSCompiler.ex
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\bin\roslyn\VBCSCompiler.exe.config
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.csprojAssemblyReference.cache
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.csproj.CoreCompileInputs.cache
 C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.csproj.CopyComplete
+C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.dll
+C:\MyGit\TestWebAddin.github.io\TestExcelWebAddIn1Web\obj\Debug\TestExcelWebAddIn1Web.pdb
