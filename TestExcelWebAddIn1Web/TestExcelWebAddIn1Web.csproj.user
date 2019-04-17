@@ -9,7 +9,8 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>AdvancedSettings</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>TestProfile</NameOfLastUsedPublishProfile>
+    <ProfileToSelectInPublishDialog>TestProfile</ProfileToSelectInPublishDialog>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="TestExcelWebAddIn1"
-     ProductID="{777e49d9-4ceb-4ada-93bf-47416e4c5316}"
+     ProductID="{23276926-4b84-4930-a7b2-07acb87fdd4c}"
      Version="1.0.0.0"
      SharePointMinVersion="15.0.0.0"
 >
